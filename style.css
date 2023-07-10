@@ -14,8 +14,7 @@ body{
 .banner-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
     color: white;
     background-size: cover;
     height: 100vh;
@@ -32,14 +31,14 @@ body{
 }
 
 .title {
-    width: 50%;
+    width: 53%;
     color: #272727;
     font-size: 42px;
     font-weight: 800;
 }
 
 .description {
-    width: 89%;
+    width: 90%;
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -63,7 +62,9 @@ body{
     padding: 0 325px;
 }
 
-.feature {margin: 90px 0;}
+.feature {
+    margin: 90px 0;
+}
 
 .main-container {
     max-width: 86%;
@@ -164,6 +165,34 @@ body{
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 10px;
+}
+
+.instagram {
+    margin: 90px 0;
+}
+
+.instagram-title {
+    text-align: center;
+}
+
+.instagram-description {
+    text-align: center;
+    padding: 0 325px;
+}
+
+.instagram-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img.flower-4 {
+    text-align: center;
+    width: 249px;
+}
+
+.instagram-flower {
+    margin-top: 30px;
 }
 
 
