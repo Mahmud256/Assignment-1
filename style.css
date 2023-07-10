@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.banner{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    color: white;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner-img {
+    width: 300px;
+}
+
+.banner-left {
+    width: 50%;
+}
+
+.title {
+    width: 50%;
+    color: #272727;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.description {
+    width: 89%;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+
