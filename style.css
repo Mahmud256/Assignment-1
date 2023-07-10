@@ -65,7 +65,7 @@ body{
 
 .feature {margin: 90px 0;}
 
-main {
+.main-container {
     max-width: 86%;
     margin: 0 auto;
 }
@@ -110,5 +110,62 @@ main {
     border-bottom: 1px solid;
     font-size: 15px;
 }
+
+.support {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 130px 0;
+}
+
+.support-container {
+    padding: 59px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.support-title {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.discount {
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.discount-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.discount-left {
+    width: 50%;
+    text-align: center;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.discount-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+
 
 
