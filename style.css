@@ -1,20 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
 
-.banner{
+.second-color {
+    color: #E55473;
+}
+
+.third-color{
+    color: #FFFFFF;
+}
+
+.banner {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
 .banner-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;   
+    justify-content: space-around;
     color: white;
     background-size: cover;
     height: 100vh;
@@ -23,11 +31,17 @@ body{
 }
 
 .banner-img {
-    width: 300px;
+    width: 350px;
+    height: 100vh;
 }
 
 .banner-left {
     width: 50%;
+    float: left;
+}
+
+.banner-right{
+    float: right;
 }
 
 .title {
@@ -87,11 +101,11 @@ body{
     position: relative;
 }
 
-.flower-2{
+.flower-2 {
     background-color: rgba(5, 151, 160, 0.15);
 }
 
-.flower-3{
+.flower-3 {
     background-color: rgba(71, 125, 17, 0.15);
 }
 
@@ -195,6 +209,70 @@ img.flower-4 {
     margin-top: 30px;
 }
 
+.email {
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-size: cover;
+    height: 50vh;
+    margin-bottom: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
+.email-container {
+    width: 500px;
+    height: 236px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
 
+input[type="email"] {
+    width: 350px;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+}
 
+.email-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.email-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer-back {
+    background-color: #111010;
+}
+
+.footer-middle {
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 194px;
+}
+
+.footer-last {
+    color: rgba(255, 255, 255, 0.40);
+    line-height: 30px;
+}
