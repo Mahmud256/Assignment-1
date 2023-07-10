@@ -54,4 +54,61 @@ body{
     color: white;
 }
 
+.feature-title {
+    text-align: center;
+}
+
+.feature-description {
+    text-align: center;
+    padding: 0 325px;
+}
+
+.feature {margin: 90px 0;}
+
+main {
+    max-width: 86%;
+    margin: 0 auto;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.box-border {
+    width: 327px;
+    height: 485px;
+    color: #0a0a0a;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0 0;
+    padding: 15px;
+    position: relative;
+}
+
+.flower-2{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.flower-3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flower {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+}
+
+.box-title {
+    display: flex;
+    margin-top: 11px;
+    justify-content: space-around;
+}
+
+.box-titlee {
+    border-bottom: 1px solid;
+    font-size: 15px;
+}
+
 
