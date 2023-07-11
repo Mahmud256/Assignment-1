@@ -19,6 +19,39 @@ body {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
+.banner-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #fdedf1;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: white;
+}
+
+input[type="text"] {
+    width: 350px;
+    border: none;
+    outline: 0 none;
+    margin-right: 10px;
+}
+
+.search a {
+    color: #eb5077;
+}
+
+.banner-logo {
+    width: 59%;
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 900;
+}
+
 .banner-container {
     /* display: flex;
     align-items: center;
@@ -238,6 +271,7 @@ input[type="email"] {
     border: 0;
     padding: 8px;
     border-radius: 8px;
+    outline-color: #fee22b;
     margin-right: 10px;
 }
 
