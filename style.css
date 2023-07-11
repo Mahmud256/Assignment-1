@@ -20,24 +20,26 @@ body {
 }
 
 .banner-container {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; */
     color: white;
     background-size: cover;
     height: 100vh;
-    background-position: center center;
+    padding-top: 68px;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .banner-img {
-    width: 350px;
+    width: 370px;
     height: 100vh;
 }
 
 .banner-left {
-    width: 50%;
     float: left;
+    width: 60%;
+    margin-top: 150px;
 }
 
 .banner-right{
@@ -45,14 +47,14 @@ body {
 }
 
 .title {
-    width: 53%;
+    width: 59%;
     color: #272727;
     font-size: 42px;
     font-weight: 800;
 }
 
 .description {
-    width: 90%;
+    width: 98%;
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -81,7 +83,7 @@ body {
 }
 
 .main-container {
-    max-width: 86%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -92,7 +94,7 @@ body {
 }
 
 .box-border {
-    width: 327px;
+    width: 317px;
     height: 485px;
     color: #0a0a0a;
     background-color: rgba(167, 33, 98, 0.15);
