@@ -214,7 +214,7 @@ img.flower-4 {
 .email {
     background-image: url("./Flower Asset/Rectangle\ 9.png");
     background-size: cover;
-    height: 50vh;
+    height: 55vh;
     margin-bottom: 90px;
     background-position: center;
     background-repeat: no-repeat;
@@ -223,7 +223,7 @@ img.flower-4 {
 
 .email-container {
     width: 500px;
-    height: 236px;
+    height: 100px;
     position: absolute;
     right: 0;
     left: 0;
@@ -238,6 +238,7 @@ input[type="email"] {
     border: 0;
     padding: 8px;
     border-radius: 8px;
+    margin-right: 10px;
 }
 
 .email-title {
