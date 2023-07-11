@@ -62,17 +62,19 @@ input[type="text"] {
     padding-top: 68px;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0 49px;
 }
 
 .banner-img {
-    width: 370px;
+    width: 500px;
     height: 100vh;
 }
 
 .banner-left {
     float: left;
-    width: 60%;
+    width: 55%;
     margin-top: 150px;
+    margin-left: 62px;
 }
 
 .banner-right{
@@ -80,14 +82,14 @@ input[type="text"] {
 }
 
 .title {
-    width: 59%;
+    width: 50%;
     color: #272727;
     font-size: 42px;
     font-weight: 800;
 }
 
 .description {
-    width: 98%;
+    width: 88%;
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
